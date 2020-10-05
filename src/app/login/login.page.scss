@@ -4,7 +4,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  top: 30%;
+  top: 65%;
   transform: translateY(-50%);
 }
 
@@ -26,13 +26,13 @@
   text-decoration: none;
 }
 
-#header-home {
+#header-login {
   font-size: 20px;
   font-weight: 500;
 }
 
 .padding-card {
-  padding: 15px 0 0 0;
+  padding: 15px;
 }
 
 .text-color {
@@ -40,7 +40,11 @@
 }
 
 .header-text-color {
-  color: #383838;
+  color: #ffffff;
+}
+
+.logo {
+  margin-top: 65px;
 }
 
 ion-header {
@@ -52,7 +56,7 @@ ion-content{
 }
 
 ion-card{
-  --ion-background-color:#ffffffd7;
+  --ion-background-color:#ffffff;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 

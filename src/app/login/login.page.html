@@ -1,0 +1,28 @@
+<ion-content [fullscreen]="true">
+  <ion-title class="ion-text-center header-text-color">
+    <img class="logo" src="../../assets/logo.svg">
+  </ion-title>
+  <ion-header collapse="condense">
+    <ion-toolbar>
+      <ion-title size="large">Blank</ion-title>
+    </ion-toolbar>
+  </ion-header>
+
+  <div id="container">
+    <ion-card class="padding-card">
+      <ion-label id="header-login" class="text-color">Đăng nhập</ion-label> 
+      <ion-list>
+        <ion-item>
+          <ion-label class="text-color" position="floating">Email</ion-label>
+          <ion-input class="text-color" type="email" value="huunhan99@gmail.com"></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label class="text-color" position="floating">Mật khẩu</ion-label>
+          <ion-input class="text-color" type="password" value="1234"></ion-input>
+        </ion-item>
+      </ion-list>
+    </ion-card>
+    
+    <ion-button  routerLink="/home" routerDirection="root">Đăng nhập</ion-button>
+  </div>
+</ion-content>

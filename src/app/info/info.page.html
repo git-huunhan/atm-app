@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-buttons slot="start">
-      <ion-back-button class="header-text-color" defaultHref="login">
+      <ion-back-button class="header-text-color" defaultHref="home">
         Back
       </ion-back-button>
     </ion-buttons>
@@ -20,17 +20,15 @@
 
   <div id="container">
     <ion-card class="padding-card">
-      <ion-label id="header-home" class="text-color">Trang chủ</ion-label> 
+      <ion-label id="header-info" class="text-color">Thông tin tài khoản</ion-label> 
       <ion-list>
         <ion-item>
           <ion-label class="text-color">Tài khoản</ion-label>
-          <ion-label class="text-color">huunhan99@gmail.com</ion-label>
+          <ion-label class="text-color">huunhan99@gmail.com</ion-label>
         </ion-item>
-        <ion-item routerLink="/info">
-          <ion-label class="text-color">
-            Xem thông tin tài khoản 
-          </ion-label>
-          <span class="text-color" class="iconify" data-icon="ion-chevron-right" data-inline="false" slot="end"></span>
+        <ion-item >
+          <ion-label class="text-color">Chi tiết</ion-label>
+          <ion-label class="text-color">Số tiền còn lại: 10000</ion-label>
         </ion-item>
       </ion-list>
     </ion-card>
